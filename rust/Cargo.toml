@@ -1,0 +1,8 @@
+[package]
+name = "rust"
+version = "0.0.0"
+edition = "2021"
+publish = false
+description = "Dummy Rust project used to exercise release-please rust release automation."
+
+[dependencies]

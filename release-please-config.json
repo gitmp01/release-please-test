@@ -1,12 +1,24 @@
 {
-  "packages": {
-    ".": {
-      "changelog-path": "CHANGELOG.md",
-      "bump-minor-pre-major": false,
-      "bump-patch-for-minor-pre-major": false,
-      "draft": false,
-      "prerelease": false
-    }
-  },
-  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+    "separate-pull-requests": true,
+    "pull-request-title-pattern": "chore: release `${component}/v${version}`",
+    "packages": {
+        ".": {
+            "release-type": "simple",
+            "component": "worker",
+            "tag-separator": "/",
+            "force-tag-creation": true,
+            "include-component-in-tag": true,
+            "exclude-paths": [
+                "./sdk"
+            ]
+        },
+        "sdk": {
+            "release-type": "node",
+            "component": "ts-sdk",
+            "tag-separator": "/",
+            "force-tag-creation": true,
+            "include-component-in-tag": true
+        }
+    },
+    "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
 }
