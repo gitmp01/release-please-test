@@ -1,0 +1,6 @@
+{
+  "name": "sdk",
+  "version": "0.0.0",
+  "description": "Dummy SDK project used to exercise release-please node release automation.",
+  "private": true
+}
