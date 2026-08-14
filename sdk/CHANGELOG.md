@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/gitmp01/release-please-test/compare/ts-sdk/v0.1.0...ts-sdk/v0.2.0) (2026-08-14)
+
+
+### Features
+
+* **sdk:** update ([#16](https://github.com/gitmp01/release-please-test/issues/16)) ([26234ed](https://github.com/gitmp01/release-please-test/commit/26234ed5fdfe1009a93394f333f3aeebde8ff1d6))
+
 ## [0.1.0](https://github.com/gitmp01/release-please-test/compare/ts-sdk/v0.0.0...ts-sdk/v0.1.0) (2026-08-14)
 
 
