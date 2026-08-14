@@ -3,14 +3,11 @@
     "pull-request-title-pattern": "chore: release `${component}/v${version}`",
     "packages": {
         ".": {
-            "release-type": "simple",
-            "component": "worker",
-            "tag-separator": "/",
-            "force-tag-creation": true,
-            "include-component-in-tag": true,
-            "exclude-paths": [
-                "./sdk"
-            ]
+            "changelog-path": "CHANGELOG.md",
+            "bump-minor-pre-major": false,
+            "bump-patch-for-minor-pre-major": false,
+            "draft": false,
+            "prerelease": false
         },
         "sdk": {
             "release-type": "node",
